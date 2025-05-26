@@ -13,25 +13,19 @@ body {
     font-size: 1.7rem;
     line-height: 150px;
     user-select: none;
-    cursor: pointer;
-  }
+    cursor: pointer; }
   
   .btn-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; /* allow wrapping on smaller screens */
     max-width: 650px; 
-    margin: 0 auto;
-  }
-  
-  
+    margin: 0 auto; }
   .yellow {
-    background-color: yellow;
-  }
+    background-color: yellow;}
   
   .purple {
-    background-color: rgb(240, 153, 240);
-  }
+    background-color: rgb(240, 153, 240); }
   
   .red {
     background-color: rgb(223, 24, 24);
