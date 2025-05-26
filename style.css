@@ -3,10 +3,7 @@ body {
     margin: 0;
     padding: 20px;
     font-family: 'Courier New', monospace;
-    overflow-x: hidden; /* prevent horizontal scroll */
-  }
-  
-  /* Reduce button size to fit on one page */
+    overflow-x: hidden; /* prevent horizontal scroll */}
   .btn {
     height: 150px;
     width: 150px;
@@ -23,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; /* allow wrapping on smaller screens */
-    max-width: 650px; /* increased container width to fit bigger buttons */
+    max-width: 650px; 
     margin: 0 auto;
   }
   
@@ -64,21 +61,18 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-family: 'Courier New', monospace;
-    font-size: 1rem;
-  }
+    font-size: 1rem; }
   
   #reset-score:hover {
     background-color: #555;
   }
   
-  /* Highest Score text */
   #high-score {
     margin-top: 10px;
     font-family: 'Courier New', monospace;
     color: #444;
     font-size: 1.1rem;
   }
-  
   /* Signature with typing effect, no blinking cursor */
   .signature {
     font-family: "Courier New", monospace;
@@ -99,7 +93,7 @@ body {
       width: 0ch;
     }
     to {
-      width: 20ch; /* Enough to show full "Made by Himani 💡" */
+      width: 20ch;
     }
   }
   .instructions {
