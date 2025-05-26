@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simon Says</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Simon Says</h1>
+  <h2>Press any key to start the game</h2>
+
+  <div class="instructions">
+    <p>🟢 Memorize the button sequence shown.</p>
+    <p>🔴 Repeat the sequence by clicking the buttons in the same order.</p>
+    <p>💥 One wrong click and it’s game over!</p>
+  </div>
+
+  <button id="reset-score">Reset High Score</button>
+  <h3 id="high-score">Highest Score: 0</h3>
+
+  <div class="btn-container">
+    <div class="line-1">
+      <div class="btn red" id="red">1</div>
+      <div class="btn yellow" id="yellow">2</div>
+    </div>
+    <div class="line-2">
+      <div class="btn green" id="green">3</div>
+      <div class="btn purple" id="purple">4</div>
+    </div>
+  </div>
+
+  <p class="signature">💡 Made by Himani</p>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
